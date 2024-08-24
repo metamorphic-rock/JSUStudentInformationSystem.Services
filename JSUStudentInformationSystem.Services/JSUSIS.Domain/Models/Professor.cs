@@ -8,5 +8,8 @@ namespace JSUSIS.Domain.Models
 {
     public class Professor: PersonalInformation
     {
+        public List<Class> Classes { get; set; }
+        public DateTime EmployementDate { get; set; }
+        public Boolean IsFullTime { get; set; }
     }
 }
